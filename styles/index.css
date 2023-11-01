@@ -7,3 +7,8 @@
 ::after {
     box-sizing: inherit;
 }
+
+@font-face {
+    font-family: Norse;
+    src: url(../fonts/Norse-Bold.otf);
+}
