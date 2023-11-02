@@ -25,6 +25,7 @@ aside.sidebar {
 .contact-info,
 .passwd {
     display: flex;
+    margin: 0.5em;
 }
 
 label {
