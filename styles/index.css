@@ -46,3 +46,12 @@ input {
 label {
     text-transform: uppercase;
 }
+
+button {
+    background-color: #596d48;
+    color: white;
+    border-radius: 0.3em;
+    text-align: center;
+    padding: .5em 2em;
+    margin-top: 2em;
+}
