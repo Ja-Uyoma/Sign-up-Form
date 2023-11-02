@@ -26,3 +26,7 @@ aside.sidebar {
 .passwd {
     display: flex;
 }
+
+label {
+    text-transform: uppercase;
+}
