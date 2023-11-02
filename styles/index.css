@@ -24,6 +24,11 @@ aside.sidebar {
 
 form {
     margin: 2em;
+    padding: 1em;
+    border: 1px #ffffff;
+    border-style: hidden;
+}
+
 legend {
     font-size: 1.25rem;
 }
@@ -49,6 +54,7 @@ input {
 
 label {
     text-transform: uppercase;
+    display: block;
 }
 
 button {
