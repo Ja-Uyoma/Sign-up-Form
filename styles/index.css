@@ -21,6 +21,10 @@ aside.sidebar {
     background-image: url("../images/halie-west-25xggax4bSA-unsplash.jpg");
 }
 
+form {
+    margin: 2em;
+}
+
 .names,
 .contact-info,
 .passwd {
