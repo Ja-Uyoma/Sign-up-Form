@@ -25,8 +25,7 @@ aside.sidebar {
 form {
     margin: 2em;
     padding: 1em;
-    border: 1px #ffffff;
-    border-style: hidden;
+    border: 1px hidden #ffffff;
 }
 
 legend {
