@@ -20,3 +20,9 @@ main.main {
 aside.sidebar {
     background-image: url("../images/halie-west-25xggax4bSA-unsplash.jpg");
 }
+
+.names,
+.contact-info,
+.passwd {
+    display: flex;
+}
