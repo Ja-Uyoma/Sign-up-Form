@@ -38,6 +38,11 @@ form {
     margin: 0em 4em 0em 0em;
 }
 
+input {
+    border-color: #E5E7EB;
+    border-radius: 0.3em;
+}
+
 label {
     text-transform: uppercase;
 }
