@@ -32,6 +32,12 @@ form {
     margin: 0.5em;
 }
 
+.names > div:first-child,
+.contact-info > div:first-child,
+.passwd > div:first-child {
+    margin: 0em 4em 0em 0em;
+}
+
 label {
     text-transform: uppercase;
 }
