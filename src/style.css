@@ -1,0 +1,70 @@
+:root {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url(/src/assets/Norse-Bold.otf);
+}
+
+main.main {
+  display: flex;
+}
+
+aside.sidebar {
+  background-image: url("../public/halie-west.png");
+}
+
+form {
+  margin: 2em;
+  padding: 1em;
+  border: 1px hidden #ffffff;
+}
+
+legend {
+  font-size: 1.25rem;
+}
+
+.names,
+.contact-info,
+.passwd {
+  display: flex;
+  margin: 0.5em;
+  font-size: 0.8rem;
+}
+
+.names > div:first-child,
+.contact-info > div:first-child,
+.passwd > div:first-child {
+  margin: 0em 4em 0em 0em;
+}
+
+input {
+  border-color: #e5e7eb;
+  border-radius: 0.3em;
+}
+
+label {
+  text-transform: uppercase;
+  display: block;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border-radius: 0.3em;
+  text-align: center;
+  padding: 0.5em 2em;
+  margin-top: 2em;
+}
+
+div > p {
+  font-size: 0.8rem;
+}
