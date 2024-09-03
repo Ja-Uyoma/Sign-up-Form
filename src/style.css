@@ -19,7 +19,7 @@ main.main {
 }
 
 aside.sidebar {
-  background-image: url("../public/halie-west.png");
+  background-image: url("/halie-west.png");
 }
 
 form {
