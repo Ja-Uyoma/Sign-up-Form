@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "flat-green": "#596D48",
+      },
+    },
   },
   plugins: [],
 };
