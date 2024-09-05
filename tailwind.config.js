@@ -8,7 +8,7 @@ export default {
         "cloudy-gray": "#E5E7EB",
       },
       backgroundImage: {
-        "odin-logo": "url('/public/odin-lined.png')",
+        "halie-west": "url('/public/halie-west.png')",
       },
       fontFamily: {
         norse: "Norse Bold",
