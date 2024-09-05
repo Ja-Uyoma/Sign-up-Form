@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         "odin-logo": "url('/public/odin-lined.png')",
       },
+      fontFamily: {
+        norse: "Norse Bold",
+      },
     },
   },
   plugins: [],
