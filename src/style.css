@@ -4,7 +4,7 @@
 
 @layer base {
   @font-face {
-    font-family: "norse";
+    font-family: "Norse Bold";
     font-style: normal;
     font-weight: bold;
     src: url(/src/assets/Norse-Bold.otf) format("otf");
