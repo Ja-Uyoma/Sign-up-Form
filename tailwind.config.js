@@ -8,7 +8,7 @@ export default {
         "cloudy-gray": "#E5E7EB",
       },
       backgroundImage: {
-        "halie-west": "url('/public/halie-west.png')",
+        "halie-west": "url('/halie-west.png')",
       },
       fontFamily: {
         norse: "Norse Bold",
