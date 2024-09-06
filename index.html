@@ -6,30 +6,33 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Sign-up Form</title>
   </head>
-      <aside>
   <body class="bg-gray-50">
-    <main>
-      <aside>
-        <img src="/odin-lined.png" alt="The Odin Project logo" />
-        <img
-          src="/halie-west.png"
-          alt="Green leaf plant in close up photography"
-        />
+    <main class="flex">
+      <aside
+        class="basis-2/5 bg-halie-west bg-cover bg-no-repeat relative flex flex-grow-0 flex-shrink justify-center"
+      >
+        <div
+          class="flex justify-center items-center bg-black/[0.4] absolute left-0 top-[20%] py-4 w-full"
+        >
+          <img src="/odin-lined.png" alt="The Odin Project Logo" class="h-36" />
+          <h2 class="uppercase text-8xl text-white font-norse">Odin</h2>
+        </div>
       </aside>
 
-      <div>
-        <p class="font-bold">
+      <div class="basis-3/5 pt-10">
+        <p class="font-medium mx-10 text-xl">
           This is not a real online service! You know you need something <br />
           like this in your life to help you realize your deepest dreams. <br />
-          Sign up now to get started.
+          Sign up <span class="italic">now</span> to get started.
+          <br />
           <br />
           You <span class="italic">know</span> you want to.
         </p>
 
         <form action="./" method="post" class="bg-white mt-10 mb-5 shadow-md">
-          <p class="font-medium mx-6 py-2">Let's do this!</p>
+          <p class="font-medium mx-10 py-2 text-xl">Let's do this!</p>
 
-          <div class="flex mx-6">
+          <div class="flex mx-10 gap-12 pb-2">
             <label for="first-name" class="uppercase block">
               First Name
 
@@ -55,7 +58,7 @@
             </label>
           </div>
 
-          <div class="flex mx-6">
+          <div class="flex mx-10 gap-12 pb-2">
             <label for="email" class="uppercase block">
               Email
 
@@ -81,7 +84,7 @@
             </label>
           </div>
 
-          <div class="flex mx-6">
+          <div class="flex mx-10 gap-12 pb-6">
             <label for="password" class="uppercase block">
               Password
 
@@ -90,7 +93,7 @@
                 name="password"
                 id="password"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded invalid:border-red-500"
               />
             </label>
 
@@ -102,20 +105,25 @@
                 name="confirm-password"
                 id="confirm-password"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded invalid:border-red-500"
               />
             </label>
           </div>
         </form>
 
-        <div class="bg-gray-50 mx-6">
-          <button type="submit" class="bg-flat-green text-white px-8 rounded">
+        <div class="bg-gray-50 mx-10">
+          <button
+            type="submit"
+            class="bg-flat-green text-white font-bold px-8 py-2 rounded-md cursor-pointer"
+          >
             Create Account
           </button>
 
-          <p class="mt-5">
+          <p class="mt-5 text-lg">
             Already have an account?
-            <a href="./" class="text-flat-green">Log in</a>
+            <a href="./" class="text-flat-green font-bold cursor-pointer">
+              Log in
+            </a>
           </p>
         </div>
       </div>
