@@ -7,6 +7,6 @@
     font-family: "Norse Bold";
     font-style: normal;
     font-weight: bold;
-    src: url(/src/assets/Norse-Bold.otf) format("otf");
+    src: url(/src/assets/Norse-Bold.otf) format("opentype");
   }
 }
