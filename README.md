@@ -47,8 +47,20 @@ For a development build, run:
 npm run dev
 ```
 
+You can then visit the address `http://localhost:5173` on your browser to view the project.
+
 For a production build, run:
 
 ```sh
 npm run build && npm run preview
 ```
+
+You can then visit the address `http://localhost:4173` on your browser to view the project.
+
+## License
+
+This project is licensed under the MIT license. See LICENSE.md for more information.
+
+## Project Status
+
+This project is complete.
