@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="src/main.ts" defer></script>
     <title>Sign-up Form</title>
   </head>
   <body class="bg-gray-50">
@@ -17,6 +18,14 @@
           <img src="/odin-lined.png" alt="The Odin Project Logo" class="h-36" />
           <h2 class="uppercase text-8xl text-white font-norse">Odin</h2>
         </div>
+        <p class="text-white absolute bottom-1 w-full text-center">
+          Photo by <span class="underline">Halie West</span> on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            class="underline"
+            >Unsplash</a
+          >
+        </p>
       </aside>
 
       <div class="basis-3/5 pt-10">
@@ -41,7 +50,7 @@
                 name="first-name"
                 id="first-name"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded"
               />
             </label>
 
@@ -53,7 +62,7 @@
                 name="last-name"
                 id="last-name"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded"
               />
             </label>
           </div>
@@ -67,7 +76,7 @@
                 name="email"
                 id="email"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded"
               />
             </label>
 
@@ -79,7 +88,7 @@
                 name="phone-number"
                 id="phone-number"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded"
               />
             </label>
           </div>
@@ -93,8 +102,12 @@
                 name="password"
                 id="password"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded invalid:border-red-500"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded invalid:border-red-500"
               />
+
+              <span
+                class="text-red-600 text-sm normal-case tracking-tighter"
+              ></span>
             </label>
 
             <label for="confirm-password" class="uppercase block">
@@ -105,7 +118,7 @@
                 name="confirm-password"
                 id="confirm-password"
                 required
-                class="block border border-cloudy-gray focus:border-blue-400 focus:shadow-md rounded invalid:border-red-500"
+                class="block border border-cloudy-gray focus:border-blue-400 focus:outline-none focus:border-2 focus:shadow-md rounded invalid:border-red-500"
               />
             </label>
           </div>
