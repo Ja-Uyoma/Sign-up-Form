@@ -10,6 +10,9 @@ const validatePasswords = () => {
   if (!isValid) {
     password.classList.add("border-red-500");
     confirm.classList.add("border-red-500");
+  } else {
+    password.classList.remove("border-red-500");
+    confirm.classList.remove("border-red-500");
   }
 };
 
